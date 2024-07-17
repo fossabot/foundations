@@ -1,11 +1,29 @@
+![logo](./logo250.png)
+
 KRAUD CLOUD ENTERPRISE FOUNDATIONS
 ==================================
 
-an opinionated foundational set of services for managed kubernetes that is
+![test](https://github.com/kraudcloud/foundations/actions/workflows/test-bootstrap.yaml/badge.svg)
 
-- well tested
-- audited for high availability, security and compliance
-- supported by kraud
+An opinionated foundational set of services for managed kubernetes.
+We manage, tests, audits and support this stack for our customers.
+
+It is available to the public as a learning example only.
+Pull requests will be ignored.
+
+
+| chart | version |
+|---|---|
+| cert-manager | 1.15 |
+| cilium | 1.15 |
+| flux | 2.3 |
+| haproxy | 1.4 |
+| longhorn | 1.6 |
+| openebs | 4.1 |
+| prometheus | 56.8 |
+
+
+
 
 ## Bootstrapping
 
